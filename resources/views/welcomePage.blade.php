@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
+    <h1 class="text-center"><b>Welcome!</b></h1>
     <div class="box">
         <div id="overlay">
             <div class="image">
@@ -19,8 +20,15 @@
                 </div>
             </div>
             <ul class="text">Cecilia Audrey Herli</ul>
-            <div class="text1">PPTI 12</div>
-    
+            <div class="text1"> <small class="text-muted">PPTI 12</small></div>
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+            </figure>
     
     
     
