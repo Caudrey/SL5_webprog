@@ -1,14 +1,71 @@
 {
-    "private": true,
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    },
-    "devDependencies": {
-        "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.7.2",
-        "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
-        "vite": "^4.0.0"
-    }
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.3",
+    "laravel-vite-plugin": "^0.7.2",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "sass": "^1.56.1",
+    "vite": "^4.0.0"
+  },
+  "name": "cecil-profile",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "anymatch": "^3.1.3",
+    "braces": "^3.0.2",
+    "binary-extensions": "^2.2.0",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "esbuild": "^0.17.14",
+    "chokidar": "^3.5.3",
+    "form-data": "^4.0.0",
+    "fill-range": "^7.0.1",
+    "follow-redirects": "^1.15.2",
+    "has": "^1.0.3",
+    "glob-parent": "^5.1.2",
+    "is-binary-path": "^2.1.0",
+    "function-bind": "^1.1.1",
+    "is-core-module": "^2.11.0",
+    "is-glob": "^4.0.3",
+    "immutable": "^4.3.0",
+    "is-number": "^7.0.0",
+    "is-extglob": "^2.1.1",
+    "mime-db": "^1.52.0",
+    "nanoid": "^3.3.6",
+    "mime-types": "^2.1.35",
+    "normalize-path": "^3.0.0",
+    "picocolors": "^1.0.0",
+    "picomatch": "^2.3.1",
+    "path-parse": "^1.0.7",
+    "proxy-from-env": "^1.1.0",
+    "resolve": "^1.22.1",
+    "readdirp": "^3.6.0",
+    "rollup": "^3.20.2",
+    "source-map-js": "^1.0.2",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "to-regex-range": "^5.0.1",
+    "vite-plugin-full-reload": "^1.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caudrey/Cecil-Profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caudrey/Cecil-Profile/issues"
+  },
+  "homepage": "https://github.com/Caudrey/Cecil-Profile#readme"
 }
