@@ -29,7 +29,7 @@
             <div class="panel-heading " role="tab" id="headingOne">
                 <h4 class="panel-title ">
                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="" aria-controls="collapseOne">
-                    <div class="title  btn btn-danger btn-outline btn-lg">ABOUT WALTER</div>
+                    <div class="title  btn btn-danger btn-outline btn-lg">Profile</div>
                 </a>
                 </h4>
             </div>
@@ -43,7 +43,7 @@
             <div class="panel-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <div class="title btn btn-danger btn-outline btn-lg">SOCIAL</div>
+                    <div class="title btn btn-danger btn-outline btn-lg">Contact</div>
                 </a>
                 </h4>
             </div>
@@ -57,29 +57,18 @@
             <div class="panel-heading" role="tab" id="headingThree">
                 <h4 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <div class="title btn btn-danger btn-outline btn-lg">CONTACT</div>
+                    <div class="title btn btn-danger btn-outline btn-lg">CONTACT ME</div>
                 </a>
                 </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
-            
-                
-                
-                            <form id="form" class="topBefore">
-            
-                    <input id="name" type="text" placeholder="NAME">
-                    <input id="email" type="text" placeholder="E-MAIL">
-                    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-                    <input id="submit" type="submit" value="Submit Now!">
-            
+                    <form id="form" class="topBefore">
+                        <input id="name" type="text" placeholder="NAME">
+                        <input id="email" type="text" placeholder="E-MAIL">
+                        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                        <input id="submit" type="submit" value="Submit Now!">
                     </form>
-            
-            
-                
-                
-                
-                
                 </div>
             </div>
         </div>
