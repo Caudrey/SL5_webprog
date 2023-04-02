@@ -1,5 +1,5 @@
 body {
-    background: url(../assets/chan-hoi-uj-w-v7OFT4-unsplash.jpg) no-repeat top center;
+    background: linear-gradient(to top, #00000059, #0000009d), url(../assets/johannes-plenio-DKix6Un55mw-unsplash.jpg) no-repeat top center;
     background-size: cover; 
     object-fit: contain;
     background-position: center;
@@ -80,7 +80,8 @@ body {
 
 .title{
   text-align: center;
-  color:#fff;
+  background-color: rgba(255, 255, 255, 0.13);
+  /* color:black; */
   font-family:lato;
   font-weight:300;
   font-size:15px;

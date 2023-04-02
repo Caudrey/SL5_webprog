@@ -4,7 +4,9 @@ body{
   background-color: grey !important;
   
 }
-
+img{
+  object-fit: cover;
+}
 .b-divider {
   width: 100%;
   height: 3rem;
