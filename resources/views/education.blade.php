@@ -50,7 +50,7 @@
         {{-- Sidebar --}}
         <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar" style="width: 25vw;">
             <div class="d-flex flex-column align-items-center text-white text-decoration-none">
-                <img id="img-cecil" src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle shadow-3-strong" alt="cecil" style="width: 100px">
+                <img id="img-cecil" src="assets/IMG-20230402-WA0007.jpg" class="rounded-circle shadow-3-strong" alt="cecil" style="width: 150px; height:150px">
                 <span class="fs-4">Cecilia Audrey Herli</span>
                 <span class="fw-light"><svg class="bi me-2" width="14" height="14"><use xlink:href="#location"/></svg>Indonesia</span>
             </div>
