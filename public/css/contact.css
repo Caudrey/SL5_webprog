@@ -1,0 +1,47 @@
+.contact{
+    width: 90%;
+    height: fit-content;
+}
+
+.contact .col-md-4{
+    background: #212529;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding-top: 8%;
+}
+
+.contact-info{
+    text-align: center;
+}
+
+.list-unstyled li p span{
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-info img{
+    margin-bottom: 8%;
+}
+.contact-info h3{
+    margin-bottom: 5%;
+}
+.contact .col-md-8{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+
+.contact-form button{
+    font-weight: 600;
+    width: 25%;
+}
+
+
+.contact-form button:focus{
+    box-shadow:#212529;
+}

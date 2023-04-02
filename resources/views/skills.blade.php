@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Education</title>
-    <link rel="stylesheet" href="css/education.css">
+    <title>Skills</title>
+    <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
@@ -56,43 +56,43 @@
             </div>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
-                <li class="nav-item">
+                <li class="nav-item"> 
                     <div class="rounded d-flex flex-row profile-nav {{ Request::url() == url('/profile') ? 'active' : '' }}">
                         <a href="/profile" class="nav-link text-white fw-bold link-body-emphasis" style="width: 85%">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
-                    Profile
-                </a>
+                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                            Profile
+                        </a>
                         <div class="py-1 ">
                             <button type="button" class="btn btn-outline-light dropdown-toggle" aria-current="page" data-bs-toggle="collapse" data-bs-target="#profile-collapse" aria-expanded="true"></button>
                         </div>
                     </div>
-                <div class="collapse show" id="profile-collapse">
-                    <ul class="btn-toggle-nav list-unstyled ms-3 fw-light pb-1 lh-sm small">
+                    <div class="collapse show" id="profile-collapse">
+                        <ul class="btn-toggle-nav list-unstyled ms-3 fw-light pb-1 lh-sm small">
                             <li><a href="/profile#description" class="link-body-emphasis d-inline-flex text-white text-decoration-none rounded" style="width: 92%">Description</a></li>
                             <li><a href="/profile#motto" class="link-body-emphasis d-inline-flex text-white text-decoration-none rounded" style="width: 92%">Motto</a></li>
                             <li><a href="/profile#personality" class="link-body-emphasis d-inline-flex text-white text-decoration-none rounded" style="width: 92%">Personality</a></li>
                             <li><a href="/profile#interest" class="link-body-emphasis d-inline-flex text-white text-decoration-none rounded" style="width: 92%">Interest</a></li>
-                    </ul>
-                </div>
-            </li>
+                        </ul>
+                    </div>
+                </li>
                 <li  class="nav-item btn-nav">
                     <a href="/education" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/education') ? 'active' : '' }}">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#education"/></svg>
-                    Education
-                </a>
-            </li>
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="#education"/></svg>
+                        Education
+                    </a>
+                </li>
                 <li  class="nav-item btn-nav">
                     <a href="/skills" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/skills') ? 'active' : '' }}">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#skill"/></svg>
-                    Skills
-                </a>
-            </li>
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="#skill"/></svg>
+                        Skills
+                    </a>
+                </li>
                 <li  class="nav-item btn-nav">
                     <a href="/contact" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/contact') ? 'active' : '' }}">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#contact"/></svg>
-                    Contact
-                </a>
-            </li>
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="#contact"/></svg>
+                        Contact
+                    </a>
+                </li>
             </ul>
         </div>
         {{-- End Of Sidebar --}}
@@ -105,7 +105,7 @@
                 <header class="py-3 mb-4 border-bottom">
                     <div class="container d-flex flex-wrap justify-content-center">
                         <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
-                            <span class="fs-4 text-white">Education</span>
+                            <span class="fs-4 text-white">Skills</span>
                         </a>
                     </div>
                 </header>
@@ -113,41 +113,111 @@
             {{-- End Of Header --}}
             
             {{-- Content --}}
-            {{-- Timeline --}}
-            <div class="education container px-4 mt-3">
-                <div id="timeline" class="row rounded-3 py-5 m-auto">
-                    <h3 class="text-white ms-1 py-2 text-center">Timeline</h3>
-                    <div class="px-5 py-3">
-                      <ul class="timeline-1 text-white">
-                        <li class="event fs-5" data-date="2007 - 2009">
-                            <h4 class="mb-3">SD Tarakanita Gading Serpong</h4>
-                            <p>Kindergarten</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2009 - 2011">
-                            <h4 class="mb-3">SD Perguruan Buddhi</h4>
-                            <p>Elementary school</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2011 - 2015">
-                            <h4 class="mb-3">SD Tarakanita Gading Serpong</h4>
-                            <p>Elementary school</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2015 - 2018">
-                            <h4 class="mb-3">SMP Tarakanita Gading Serpong</h4>
-                            <p>Junior high school</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2018 - 2021">
-                            <h4 class="mb-3">SMA Tarakanita Gading Serpong</h4>
-                            <p>Senior High School</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2021 - Now">
-                            <h4 class="mb-3">Binus University (PPTI BCA)</h4>
-                            <p class="mb-0">College</p>
-                        </li>
-                      </ul>
-                  </div>
+            <div class="d-flex flex-column profile align-items-center">
+                {{-- Description --}}
+                <div id="description" class="rounded-top mt-3">
+                    <div class="container py-4 px-5 d-flex flex-column">
+                        <div class="d-flex my-4">
+                            <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="shadow-3-strong p-2 mx-4" alt="cecil" style="width: 20%; height: inherit;">
+                            <div class="container">
+                                <h3>Description</h3>
+                                <div class="row">
+                                    <div class="col lh-sm">
+                                        <p><span>Full Name </span>: Cecilia Audrey Herli</p>
+                                        <p><span>Nickname </span>: Cecil</p>
+                                        <p><span>Country </span>: Indonesia</p>
+                                        <p><span>Residence </span>: Sentul</p>
+                                    </div>
+                                    <div class="col lh-sm">
+                                        <p><span>Age</span>: 19</p>
+                                        <p><span>Occupation </span>: College Student</p>
+                                        <p><span>University </span>: Binus University (PPTI BCA)</p>
+                                        <p><span>Major </span>: Computer Science</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-5 text-center rounded-3">
+                            <p class="lead">
+                                Hello, I am Cecil, a 19-year-old girl living in Indonesia. Currently, I am pursuing an undergraduate degree in Computer Science major through PPTI BCA. I am in the 5th semester now and trying my best so I can graduate!
+                            </p>
+                        </div>
+                    </div>    
+                </div> 
+                {{-- End Of Description --}}
+
+                {{-- Motto --}}
+                <div id="motto" class="text-bg-dark p-5 mb-4">
+                    <figure class="text-center quote m-auto lg-sm pt-3">
+                        <blockquote class="blockquote">
+                          <p>Nobody can go back and start a new beginning, but anyone can start today and make a new ending.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mt-1">
+                          <cite title="Source Title">Maria Robinson</cite>
+                        </figcaption>
+                    </figure>
+                </div>   
+                
+                <div id="PnI" class="row">
+                    {{-- personality --}}
+                    <div id="personality" class="col-6">
+                        <div class="p-5 bg-body-tertiary border text-bg-light rounded-3">
+                            <h2 class="pb-2">Personality</h2>
+                            <div class="row">
+                                <div class="col lh-lg">
+                                    <li>Diligent</li>
+                                    <li>Discipline</li>
+                                    <li>Communicative</li>
+                                </div>
+                                <div class="col lh-lg">
+                                    <li>Hardworking</li>
+                                    <li>Responsible</li>
+                                    <li>Target oriented</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- End Of personality --}}
+                    
+                    {{-- Interest --}}
+                    <div id="interest" class="col-6">
+                        <div class="p-5 text-bg-dark rounded-3">
+                            <h2 class="pb-2">Interest</h2>
+                            <div class="row">
+                                <div class="col lh-lg">
+                                    <li>Reading (Hobby)</li>
+                                    <li>Cyber Security</li>
+                                    <li>Full Stack Developer</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- End Of Interest --}}
                 </div>
+                
+                {{-- <div id="personality" class="rounded-top">
+                    <div class="container mt-2 p-4 d-flex ">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="shadow-3-strong" alt="cecil" style="width: 40%; height: inherit;">
+                        <div class="px-5 text-center rounded-3">
+                            <h1 class="text-body-emphasis">Basic jumbotron</h1>
+                            <p class="lead">
+                                Hello, I am Cecil, a 19-year-old girl living in Indonesia. Currently, I am pursuing an undergraduate degree in Computer Science major through PPTI BCA. I am in the 5th semester now and trying my best to graduate!
+                            </p>
+                        </div>
+                    </div>    
+                </div> 
+                <div id="Interest" class="rounded-top">
+                    <div class="container mt-2 p-4 d-flex ">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="shadow-3-strong" alt="cecil" style="width: 40%; height: inherit;">
+                        <div class="px-5 text-center rounded-3">
+                            <h1 class="text-body-emphasis">Basic jumbotron</h1>
+                            <p class="lead">
+                                Hello, I am Cecil, a 19-year-old girl living in Indonesia. Currently, I am pursuing an undergraduate degree in Computer Science major through PPTI BCA. I am in the 5th semester now and trying my best to graduate!
+                            </p>
+                        </div>
+                    </div>    
+                </div>  --}}
             </div>
-            {{-- End of Timeline --}}
             {{-- End of Content --}}
 
             {{-- Footer --}}

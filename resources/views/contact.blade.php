@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Education</title>
-    <link rel="stylesheet" href="css/education.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
@@ -56,43 +56,43 @@
             </div>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
-                <li class="nav-item">
+                <li class="nav-item"> 
                     <div class="rounded d-flex flex-row profile-nav {{ Request::url() == url('/profile') ? 'active' : '' }}">
                         <a href="/profile" class="nav-link text-white fw-bold link-body-emphasis" style="width: 85%">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
-                    Profile
-                </a>
+                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                            Profile
+                        </a>
                         <div class="py-1 ">
                             <button type="button" class="btn btn-outline-light dropdown-toggle" aria-current="page" data-bs-toggle="collapse" data-bs-target="#profile-collapse" aria-expanded="true"></button>
                         </div>
                     </div>
-                <div class="collapse show" id="profile-collapse">
-                    <ul class="btn-toggle-nav list-unstyled ms-3 fw-light pb-1 lh-sm small">
+                    <div class="collapse show" id="profile-collapse">
+                        <ul class="btn-toggle-nav list-unstyled ms-3 fw-light pb-1 lh-sm small">
                             <li><a href="/profile#description" class="link-body-emphasis d-inline-flex text-white text-decoration-none rounded" style="width: 92%">Description</a></li>
                             <li><a href="/profile#motto" class="link-body-emphasis d-inline-flex text-white text-decoration-none rounded" style="width: 92%">Motto</a></li>
                             <li><a href="/profile#personality" class="link-body-emphasis d-inline-flex text-white text-decoration-none rounded" style="width: 92%">Personality</a></li>
                             <li><a href="/profile#interest" class="link-body-emphasis d-inline-flex text-white text-decoration-none rounded" style="width: 92%">Interest</a></li>
-                    </ul>
-                </div>
-            </li>
+                        </ul>
+                    </div>
+                </li>
                 <li  class="nav-item btn-nav">
                     <a href="/education" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/education') ? 'active' : '' }}">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#education"/></svg>
-                    Education
-                </a>
-            </li>
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="#education"/></svg>
+                        Education
+                    </a>
+                </li>
                 <li  class="nav-item btn-nav">
                     <a href="/skills" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/skills') ? 'active' : '' }}">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#skill"/></svg>
-                    Skills
-                </a>
-            </li>
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="#skill"/></svg>
+                        Skills
+                    </a>
+                </li>
                 <li  class="nav-item btn-nav">
                     <a href="/contact" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/contact') ? 'active' : '' }}">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#contact"/></svg>
-                    Contact
-                </a>
-            </li>
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="#contact"/></svg>
+                        Contact
+                    </a>
+                </li>
             </ul>
         </div>
         {{-- End Of Sidebar --}}
@@ -105,7 +105,7 @@
                 <header class="py-3 mb-4 border-bottom">
                     <div class="container d-flex flex-wrap justify-content-center">
                         <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
-                            <span class="fs-4 text-white">Education</span>
+                            <span class="fs-4 text-white">Contact</span>
                         </a>
                     </div>
                 </header>
@@ -113,41 +113,58 @@
             {{-- End Of Header --}}
             
             {{-- Content --}}
-            {{-- Timeline --}}
-            <div class="education container px-4 mt-3">
-                <div id="timeline" class="row rounded-3 py-5 m-auto">
-                    <h3 class="text-white ms-1 py-2 text-center">Timeline</h3>
-                    <div class="px-5 py-3">
-                      <ul class="timeline-1 text-white">
-                        <li class="event fs-5" data-date="2007 - 2009">
-                            <h4 class="mb-3">SD Tarakanita Gading Serpong</h4>
-                            <p>Kindergarten</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2009 - 2011">
-                            <h4 class="mb-3">SD Perguruan Buddhi</h4>
-                            <p>Elementary school</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2011 - 2015">
-                            <h4 class="mb-3">SD Tarakanita Gading Serpong</h4>
-                            <p>Elementary school</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2015 - 2018">
-                            <h4 class="mb-3">SMP Tarakanita Gading Serpong</h4>
-                            <p>Junior high school</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2018 - 2021">
-                            <h4 class="mb-3">SMA Tarakanita Gading Serpong</h4>
-                            <p>Senior High School</p>
-                        </li>
-                        <li class="event  fs-5" data-date="2021 - Now">
-                            <h4 class="mb-3">Binus University (PPTI BCA)</h4>
-                            <p class="mb-0">College</p>
-                        </li>
-                      </ul>
-                  </div>
-                </div>
+            <div class="d-flex flex-column contact align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="contact-info text-bg-dark m-auto">
+                                <svg class="bi me-2" width="80" height="80"><use xlink:href="#email2"/></svg>
+                                <h3 class="text-white text-center">Contact Me</h3>
+                                <h5 class="text-white text-center">I would love to hear from you!</h5>
+                                <ul class="list-unstyled d-flex flex-column pt-4">
+                                    <li><p class="text-white fs-6 text-start"><span><svg class="bi" width="20" height="20"><use xlink:href="#email"/></svg></span> cecilia.herli@gmail.com</p></li>
+                                    <li><p class="text-white fs-6 text-start"><span><svg class="bi" width="20" height="20"><use xlink:href="#WA"/></svg></span> 081319363809</p></li>
+                                    <li><p class="text-white fs-6 text-start"><span><svg class="bi" width="20" height="20"><use xlink:href="#line"/></svg></span> cecilia_audrey</p></li>
+                                    <li><p class="text-white fs-6 text-start"><span><svg class="bi" width="16" height="16"><use xlink:href="#instagram"/></svg></span> audrey9468</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-8 ps-5">
+                            <form class="contact-form" action="https://formspree.io/f/mnqyggpq" method="POST">
+                                <div class="form-group pt-3">
+                                    <label class="control-label col-sm-2" for="Name">Full Name:</label>
+                                    <div class="col-sm-10">          
+                                        <input type="text" class="form-control" id="Name" placeholder="Enter your Full Name" name="Name" required>
+                                    </div>
+                                </div>
+                                <div class="form-group pt-3">
+                                    <label class="control-label col-sm-2" for="From">From:</label>
+                                    <div class="col-sm-10">          
+                                        <input type="text" class="form-control" id="From" placeholder="Enter your Country" name="From">
+                                    </div>
+                                </div>
+                                <div class="form-group pt-3">
+                                    <label class="control-label col-sm-2" for="Email">Email:</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="Email" placeholder="Enter your email" name="Email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group pt-3">
+                                    <label class="control-label col-sm-2" for="Message">Message:</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows="5" id="Message" placeholder="Enter your Message" name="Message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group pt-4 py-1">        
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-dark">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>                
             </div>
-            {{-- End of Timeline --}}
             {{-- End of Content --}}
 
             {{-- Footer --}}

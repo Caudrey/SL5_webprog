@@ -14,20 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcomePage');
 });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/navbar', function () {
-    return view('navbar');
-});
-
-Route::get('/welcomePage', function () {
-    return view('welcomePage');
-});
 
 Route::get('/profile', function () {
     return view('profile');
@@ -39,4 +32,12 @@ Route::get('/education', function () {
 
 Route::get('/sidebar', function () {
     return view('layouts/sidebar');
+});
+
+Route::get('/skills', function () {
+    return view('skills');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
