@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Welcome!</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/welcomePage.css">
@@ -16,19 +16,10 @@
         <div id="overlay">
             <div class="image">
                 <div class="trick">
-    
                 </div>
             </div>
             <ul class="text">Cecilia Audrey Herli</ul>
             <div class="text1"> <small class="text-muted">PPTI 12</small></div>
-            <figure class="text-center">
-                <blockquote class="blockquote">
-                  <p>A well-known quote, contained in a blockquote element.</p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </figcaption>
-            </figure>
     
     
     

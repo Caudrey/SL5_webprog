@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth !important;
+    scroll-padding-top: 12vw !important;
+}
+
+.profile{
+    width: 90%;
+    height: fit-content;
+}
+
+#description{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+}
+
+#motto{
+    width: 100%;
+}
+
+.quote{
+    width: 70%;
+}
+
+.col p span{
+    width: 90px;
+    display: inline-block;
+}
+
+
+

@@ -28,3 +28,15 @@ Route::get('/navbar', function () {
 Route::get('/welcomePage', function () {
     return view('welcomePage');
 });
+
+Route::get('/profile', function () {
+    return view('profile');
+});
+
+Route::get('/education', function () {
+    return view('education');
+});
+
+Route::get('/sidebar', function () {
+    return view('layouts/sidebar');
+});
