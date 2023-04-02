@@ -158,7 +158,7 @@
                     </figure>
                 </div>   
                 
-                <div id="PnI" class="row">
+                <div id="PnI" class="row pt-3 pb-5">
                     {{-- personality --}}
                     <div id="personality" class="col-6">
                         <div class="p-5 bg-body-tertiary border text-bg-light rounded-3">
@@ -221,7 +221,7 @@
             {{-- End of Content --}}
 
             {{-- Footer --}}
-            <div class="container">
+            <div class="container pt-3">
                 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                   <div class="col-md-4 d-flex align-items-center">
                     <span class="mb-3 mb-md-0 text-white">&copy; 2023 Cecil's Profile</span>

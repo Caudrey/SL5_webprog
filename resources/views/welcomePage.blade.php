@@ -11,64 +11,18 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <h1 class="text-center"><b>Welcome!</b></h1>
+    <h1 class="text text-center text-white"><b>Welcome!</b></h1>
     <div class="box">
         <div id="overlay">
             <div class="image">
                 <div class="trick">
                 </div>
             </div>
-            <ul class="text">Cecilia Audrey Herli</ul>
-            <div class="text1"> <small class="text-muted">PPTI 12</small></div>
-    
-    
-    
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-            <div class="panel-heading " role="tab" id="headingOne">
-                <h4 class="panel-title ">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="" aria-controls="collapseOne">
-                    <div class="title  btn btn-danger btn-outline btn-lg">Profile</div>
-                </a>
-                </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                Walter has been building websites for years. He enjoys making unique websites and web projects. His hobbies include photography, woodworking, leatherworking, fishing, and mid century modern furniture.
-                </div>
-            </div>
-            </div>
-            <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingTwo">
-                <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <div class="title btn btn-danger btn-outline btn-lg">Contact</div>
-                </a>
-                </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                Walter has been building websites for years. He enjoys making unique websites and web projects. His hobbies include photography, woodworking, leatherworking, fishing, and mid century modern furniture.
-                </div>
-            </div>
-            </div>
-            <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
-                <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <div class="title btn btn-danger btn-outline btn-lg">CONTACT ME</div>
-                </a>
-                </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                <div class="panel-body">
-                    <form id="form" class="topBefore">
-                        <input id="name" type="text" placeholder="NAME">
-                        <input id="email" type="text" placeholder="E-MAIL">
-                        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-                        <input id="submit" type="submit" value="Submit Now!">
-                    </form>
-                </div>
+            <ul class="text text-white">Cecilia Audrey Herli</ul>
+            <div class="text1"> <small class="text-white">PPTI 12</small></div>
+            <div class="button-welcome d-flex flex-column justify-content-center">
+                <a href="/profile" class="title btn btn-light btn-lg m-auto text-white mt-3" href="/profile" style="width: 15%">PROFILE</a>
+                <a href="/profile" class="title btn btn-light btn-lg m-auto text-white mt-2" href="/contact" style="width: 15%">CONTACT ME</a>
             </div>
         </div>
     </div>
