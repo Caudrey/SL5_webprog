@@ -1,6 +1,8 @@
-@extends('master')
+@extends('/layout/master')
 
 @section('title', 'Profile')
+
+@section('description', 'Profile Cecil')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('/css/profile.css') }}">

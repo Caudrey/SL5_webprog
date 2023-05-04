@@ -21,7 +21,7 @@ Route::get('/welcomePage', function () {
     return view('welcomePage');
 });
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
@@ -44,4 +44,12 @@ Route::get('/skills', function () {
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/hobby', function () {
+    return view('hobby');
+});
+
+Route::fallback(function(){
+    return view('welcomePage');
 });
