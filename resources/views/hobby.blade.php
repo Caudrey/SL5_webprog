@@ -10,7 +10,7 @@
 @endsection
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('/css/???.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('/css/???.css') }}"> --}}
 @endpush
 
 @section('content')
@@ -18,7 +18,7 @@
     <div class="row">
         @foreach ($arrProduct as $prdct)
             <div class="col-sm-3">
-                <a href="/productDetail/{{ $prdct['name'] }}" class="text-decoration-none">
+                <a href="/hobby/{{ $prdct['name'] }}" class="text-decoration-none">
                     @if ($prdct['rarity'] == 'SSR')
                         <div class="card text-center text-white bg-danger mb-3" style="max-width: 100%; height: 25vw;">
                     @elseif ($prdct['rarity'] == 'R')

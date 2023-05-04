@@ -1,6 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HobbyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +26,7 @@ Route::get('/welcomePage', function () {
 
 // Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 
 Route::get('/profile', function () {
@@ -46,9 +49,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/hobby', function () {
-    return view('hobby');
-});
+Route::get('/hobby', [HobbyController::class, 'index']);
+
+Route::get('/hobby/{name}', [HobbyController::class, 'detail']);
 
 Route::fallback(function(){
     return view('welcomePage');

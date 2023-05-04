@@ -15,7 +15,7 @@
         <div id="description" class="rounded-top mt-3">
             <div class="container py-4 px-5 d-flex flex-column">
                 <div class="d-flex my-4">
-                    <img src="assets/IrD40uzsJ_hv1BOLJu2r2llhCmv_Z0YYIevJthP18Ak=_plaintext_638160376042792162.jpg" class="shadow-3-strong p-2 mx-4" alt="cecil" style="width: 16%; height: inherit;">
+                    <img src="{{ asset('assets/IrD40uzsJ_hv1BOLJu2r2llhCmv_Z0YYIevJthP18Ak=_plaintext_638160376042792162.jpg') }}" class="shadow-3-strong p-2 mx-4" alt="cecil" style="width: 16%; height: inherit;">
                     <div class="container">
                         <h3>Description</h3>
                         <div class="row">
