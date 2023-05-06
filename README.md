@@ -26,13 +26,17 @@ Hello, I am Cecilia Audrey Herli from PPTI 12 BCA and this is my profile website
 5. Contact
 
 
+## Code Example
+This is an example of my project's code which used Bootstrap 5 as CSS framework and use laravel.
+![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/coding.jpg)
+
 
 ## 1. Welcome Page
 Welcome page will be the first page that user meet when they visited my profile website. It contains my photo, name, class, and 2 buttons. The button will take you to the profile page or the contact page. 
 ![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/WelcomePage.png)
 
 I put a little trick to the image. If you hover at the image, it will show animation of the image growing larger.
-![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/WelcomePage_Trick.png)
+![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/trick.webm)
 
 
 

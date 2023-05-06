@@ -29,7 +29,6 @@
                         @endif
                                 <div class="position-absolute ms-2 mt-1 px-2 py-1 rounded text-white" style="background-color: rgba(0,0,0,0.7)">{{ $hbby['type'] }}</div>
                                 <div class="card-header">Rating: {{ $hbby['rarity'] }}</div>
-                                {{-- <div class="card-header"><h5 class="card-title mt-4">{{ $hbby['name'] }}</h5></div> --}}
                                 <div class="card-body d-flex align-items-center flex-column" style="max-width: 100%; height: 25vw;">
                                     <img class="card-img-top rounded" src="{{ asset('assets/' . $hbby['img']) }}" alt="{{ $hbby['name'] }}" style="width: auto; height: 60%;">
                                     <h5 class="card-title">{{ $hbby['name'] }}</h5>
@@ -38,7 +37,6 @@
                                     @elseif (strlen($hbby['name']) > 30)
                                     {{-- @elseif (substr_count($hbby['name'], ' ') > 5) --}}
                                         <p class="card-text text-start">{{ substr_replace($hbby['desc'], "...", 50) }}</p>
-                                    {{-- @elseif (strlen($hbby['name'])  11) --}}
                                     @else
                                         <p class="card-text text-start">{{ substr_replace($hbby['desc'], "...", 100) }}</p>
                                     @endif
