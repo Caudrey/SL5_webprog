@@ -31,6 +31,9 @@
     <symbol id="email2" viewBox="0 0 24 24">
         <path fill="currentColor" d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/>
     </symbol>
+    <symbol id="hobby" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10Zm-5-9a5 5 0 0 0 10 0h-2a3 3 0 1 1-6 0H7Zm1-2a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3Zm8 0a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3Z"/>
+    </symbol>
 </svg>
 {{-- End Of Icon --}}
 
@@ -38,7 +41,7 @@
 <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar" style="width: 25vw;">
     <div class="d-flex flex-column align-items-center text-white text-decoration-none">
         <div class="border-round">
-            <img id="img-cecil" src="{{ asset('assets/IMG-20230402-WA0007.jpg') }}" class="rounded-circle shadow-3-strong" alt="cecil">
+            <img id="img-cecil" src="{{ asset('/assets/IMG-20230402-WA0007.jpg') }}" class="rounded-circle shadow-3-strong" alt="cecil">
         </div>
         <span class="fs-4">Cecilia Audrey Herli</span>
         <span class="fw-light"><svg class="bi me-2" width="14" height="14"><use xlink:href="#location"/></svg>Indonesia</span>
@@ -84,7 +87,7 @@
         </li>
         <li  class="nav-item btn-nav mb-1">
             <a href="/hobby" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/hobby') ? 'active' : '' }}">
-                <svg class="bi me-2" width="16" height="16"><use xlink:href="#contact"/></svg>
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#hobby"/></svg>
                 Hobby
             </a>
         </li>
