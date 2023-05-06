@@ -80,15 +80,15 @@
             </a>
         </li>
         <li  class="nav-item btn-nav mb-1">
-            <a href="/contact" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/contact') ? 'active' : '' }}">
-                <svg class="bi me-2" width="16" height="16"><use xlink:href="#contact"/></svg>
-                Contact
-            </a>
-        </li>
-        <li  class="nav-item btn-nav mb-1">
             <a href="/hobby" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/hobby') ? 'active' : '' }}">
                 <svg class="bi me-2" width="16" height="16"><use xlink:href="#hobby"/></svg>
                 Hobby
+            </a>
+        </li>
+        <li  class="nav-item btn-nav mb-1">
+            <a href="/contact" class="nav-link text-white fw-bold link-body-emphasis {{ Request::url() == url('/contact') ? 'active' : '' }}">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#contact"/></svg>
+                Contact
             </a>
         </li>
     </ul>

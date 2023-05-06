@@ -1,6 +1,6 @@
 @extends('/layout/master')
 
-@section('title', "Character: " . $singleHobby['name'])
+@section('title', $singleHobby['type'] . ": " . $singleHobby['name'])
 @section('description', $singleHobby['desc'])
 
 @push('styles')
