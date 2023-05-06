@@ -4,7 +4,7 @@ Made by     : Cecilia Audrey Herli (PPTI 12)
 
 Lecturer    : Anderies, B.Eng., S.Kom., M.Kom.
 #
-Hello, I am Cecilia Audrey Herli from PPTI 12 BCA and this is my profile website. This website is made for web development course as a project from my lecturer (Anderies, B.Eng., S.Kom., M.Kom.). In here, you can see some of my information and life. In addition, you can directly contact me through this website which will be sent to my email or you can use other social media application. I made this website using a simple design, hoping that the design will made the website comfortable to be read.
+Hello, I am Cecilia Audrey Herli from PPTI 12 BCA and this is my profile website. This website is made for web development course as a project from my lecturer (Anderies, B.Eng., S.Kom., M.Kom.). In here, you can see some of my information and life. In addition, you can directly contact me through this website which will be sent to my email or you can use other social media application. I made this website using a simple design, hoping that the design will make the website comfortable to be read.
 
 
 
@@ -18,25 +18,29 @@ Hello, I am Cecilia Audrey Herli from PPTI 12 BCA and this is my profile website
 - Javascript
 
 
+## Code Example
+This is an example of my project's code which used Bootstrap 5 as CSS framework and use laravel.
+![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/coding.jpg)
+
+
 ## Section In Website
 1. Welcome Page
 2. Profile (Description, Motto, Personality, Interest)
 3. Education
 4. Skills
-5. Contact
+5. Hobby
+6. Contact
 
-
-## Code Example
-This is an example of my project's code which used Bootstrap 5 as CSS framework and use laravel.
-![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/coding.jpg)
+Here is a gif overview of the website
+![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/overview.gif)
 
 
 ## 1. Welcome Page
 Welcome page will be the first page that user meet when they visited my profile website. It contains my photo, name, class, and 2 buttons. The button will take you to the profile page or the contact page. 
 ![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/WelcomePage.png)
 
-I put a little trick to the image. If you hover at the image, it will show animation of the image growing larger.
-![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/trick.webm)
+I put a little trick to the image. If you hover at the image, it will show animation of the image growing larger. This trick is also used for the images at the sidebar.
+![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/Trick.gif)
 
 
 
@@ -65,7 +69,15 @@ Shown with the sidebar:
 ![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/SideBar_Skills.png)
 
 
-## 5. Contact
+## 5. Hobby
+My hobby is reading so Hobby section is my reading list for novel, manhwa, manhua, manga, comic, etc. In here, you can see the title, type of book, my rating for the book, a short description, and it's price. If you click one of the book, then you will go to the detailed page where there is a full description. My rating for the book will decide the color of the card which is red, yellow, white for high, medium, and low rating.
+![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/Hobby.png)
+
+Shown with the sidebar:
+![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/SideBar_Hobby.png)
+
+
+## 6. Contact
 Contact contains my contact information and a feature that can send a message to my email.
 ![Code](https://github.com/Caudrey/Cecil-Profile/blob/main/WebsiteDocumentation/Contact.png)
 

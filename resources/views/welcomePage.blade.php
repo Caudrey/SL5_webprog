@@ -21,8 +21,8 @@
             <ul class="text text-white">Cecilia Audrey Herli</ul>
             <div class="text1"> <small class="text-white">PPTI 12</small></div>
             <div class="button-welcome d-flex flex-column justify-content-center">
-                <a href="/profile" class="title btn btn-outline-light btn-lg m-auto mt-3" href="/profile" style="width: 15%">PROFILE</a>
-                <a href="/profile" class="title btn btn-outline-light btn-lg m-auto mt-2" href="/contact" style="width: 15%">CONTACT ME</a>
+                <a class="title btn btn-outline-light btn-lg m-auto mt-3" href="/profile" style="width: 15%">PROFILE</a>
+                <a class="title btn btn-outline-light btn-lg m-auto mt-2" href="/contact" style="width: 15%">CONTACT ME</a>
             </div>
         </div>
     </div>
@@ -30,4 +30,3 @@
 </body>
 </html>
 
-  
