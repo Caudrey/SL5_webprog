@@ -32,9 +32,9 @@ This is an example of my project's code which used Bootstrap 5 as CSS framework 
 6. Contact
 
 Here is a gif overview of the website
+https://media.githubusercontent.com/media/Caudrey/SL5_webprog/main/WebsiteDocumentation/overview.gif
 ![Code](https://github.com/Caudrey/SL5_webprog/blob/main/WebsiteDocumentation/overview.gif)
-https://github.com/Caudrey/SL5_webprog/blob/main/WebsiteDocumentation/overview.gif
-![Code](https://media.githubusercontent.com/media/Caudrey/SL5_webprog/main/WebsiteDocumentation/overview.gif)
+
 
 ## 1. Welcome Page
 Welcome page will be the first page that user meet when they visited my profile website. It contains my photo, name, class, and 2 buttons. The button will take you to the profile page or the contact page. 
