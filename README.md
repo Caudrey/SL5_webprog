@@ -33,6 +33,7 @@ This is an example of my project's code which used Bootstrap 5 as CSS framework 
 
 Here is a gif overview of the website
 ![Code](https://github.com/Caudrey/SL5_webprog/blob/main/WebsiteDocumentation/overview.gif)
+https://github.com/Caudrey/SL5_webprog/blob/main/WebsiteDocumentation/overview.gif
 
 
 ## 1. Welcome Page
