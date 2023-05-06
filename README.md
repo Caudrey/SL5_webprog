@@ -70,8 +70,11 @@ Shown with the sidebar:
 
 
 ## 5. Hobby
-My hobby is reading so Hobby section is my reading list for novel, manhwa, manhua, manga, comic, etc. In here, you can see the title, type of book, my rating for the book, a short description, and it's price. If you click one of the book, then you will go to the detailed page where there is a full description. My rating for the book will decide the color of the card which is red, yellow, white for high, medium, and low rating.
+My hobby is reading so Hobby section is my reading list for novel, manhwa, manhua, manga, comic, etc. In here, you can see the title, type of book, my rating for the book, a short description, and it's price. My rating for the book will decide the color of the card which is red, yellow, white for high, medium, and low rating.
 ![Code](https://github.com/Caudrey/SL5_webprog/blob/main/WebsiteDocumentation/Hobby.png)
+
+If you click one of the book, then you will go to the detailed page where there is a full description. 
+![Code](https://github.com/Caudrey/SL5_webprog/blob/main/WebsiteDocumentation/detail.png)
 
 Shown with the sidebar:
 ![Code](https://github.com/Caudrey/SL5_webprog/blob/main/WebsiteDocumentation/SideBar_Hobby.png)
